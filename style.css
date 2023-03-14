@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+body {  
+   font-family: 'Kumbh Sans';
+   font-size: 18px;
+}
+
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(./images/bg-pattern-top.svg), url(./images/bg-pattern-bottom.svg);
+    background-repeat: no-repeat;
+    background-position: -87% -500px, 170% 342.5px;
+    background-color: hsl(185, 75%, 39%);
+
+}
+img{
+    max-width: 100%;
+}
+
+.container {
+    padding-bottom: 10px;
+    box-shadow: 0px 50px 100px -20px #08465E81;
+    border-radius: 15px;
+    background-color: #FFFFFF;
+    height: 374px;
+    width: 350px;
+}
+
+.cardbg{
+    position: absolute;
+    border-radius: 15px 15px 0px 0px;
+    background-color: hsl(185, 75%, 39%);
+}
+.victor{
+    position: relative;
+    margin-left: 120px;
+    margin-top: 86px;
+    border-radius: 50%;
+    border: 5px solid white;
+    height: 96px;
+    width: 96px;
+}
+
+.name{
+    margin-top: 15px;
+    color:  #2E3349;
+    font-weight: 700;
+    text-align: center;
+}
+.spanage{
+    color: #6B7082;
+    font-weight: 400;
+    margin-left: 8px;
+}
+.plondon {
+    font-size: 14px;
+    font-weight: 400;
+    color: #6B7082;
+    text-align: center;
+    margin-top: 14px;
+}
+.rectangle{
+    border-top: 1px solid  #E8E9EC;
+    margin-top: 30px;
+}
+.stats{
+    margin-right: 56.5px;
+    margin-left: 59px;
+    margin-top: 24px;
+    font-weight: 700;
+    display: flex;
+    justify-content: space-between;
+    color: #2E3349;
+}
+.pstats {
+    letter-spacing: 1.5px;
+    margin-top: 14px;
+    margin-right: 51.5px;
+    margin-left: 47.5px;
+    font-weight: 400;
+    display: flex;
+    justify-content: space-between;
+    color: #6B7082;
+    font-size: 10px;
+}
+
+.spanlikes{ margin-right: 8px;
+    
+}
+.attribution {    color: hsl(228, 45%, 44%); 
+display: flex; 
+justify-content: center;
+
+}
+
+
+@media only screen and (min-width: 390px) and (max-width: 900px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body{
+        overflow: hidden;
+        max-width: 390px;
+    }
+    main  {
+
+        min-width: 100%;
+        background-position: 117% -600px, -30% 350px;
+        
+       
+    }
+
+
+ .container {
+    width: 326px;
+    height: 100vw;
+    overflow: hidden;
+    padding-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+ }
+ .container .cardbg {
+    max-width: 326px;
+    
+    
+ }
+ .container .victor {
+    margin-left: 110px;
+    margin-top: 81.5px;
+ }
+}
